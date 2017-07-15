@@ -2,7 +2,7 @@ from mobike_destination_predict.dataprocess.getloc import getloc
 import pandas as pd
 
 train_data = pd.read_csv('F:/data science/data/mobike/train.csv')
-test_data = pd.read_csv('F:/data science/data/mobike/test.csv')
+predict_data = pd.read_csv('F:/data science/data/mobike/test.csv')
 
 del train_data[['orderid, userid, bikeid, starttime']]
 train_data['startla'], train_data['startlo'] = getloc(train_data['geohashed_start_loc'])
