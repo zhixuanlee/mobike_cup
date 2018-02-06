@@ -3,7 +3,7 @@
 /* BEGIN: Cython Metadata
 {
     "distutils": {},
-    "module_name": "dataprocess.getloc"
+    "module_name": "mobike_destination_predict.dataprocess.getloc"
 }
 END: Cython Metadata */
 
@@ -434,8 +434,8 @@ static CYTHON_INLINE float __PYX_NAN() {
   #endif
 #endif
 
-#define __PYX_HAVE__dataprocess__getloc
-#define __PYX_HAVE_API__dataprocess__getloc
+#define __PYX_HAVE__mobike_destination_predict__dataprocess__getloc
+#define __PYX_HAVE_API__mobike_destination_predict__dataprocess__getloc
 #ifdef _OPENMP
 #include <omp.h>
 #endif /* _OPENMP */
@@ -631,7 +631,7 @@ static const char *__pyx_filename;
 
 
 static const char *__pyx_f[] = {
-  "dataprocess\\getloc.pyx",
+  "mobike_destination_predict\\dataprocess\\getloc.pyx",
 };
 
 /*--- Type declarations ---*/
@@ -841,11 +841,11 @@ static int __Pyx_check_binary_version(void);
 static int __Pyx_InitStrings(__Pyx_StringTabEntry *t);
 
 
-/* Module declarations from 'dataprocess.getloc' */
-#define __Pyx_MODULE_NAME "dataprocess.getloc"
-int __pyx_module_is_main_dataprocess__getloc = 0;
+/* Module declarations from 'mobike_destination_predict.dataprocess.getloc' */
+#define __Pyx_MODULE_NAME "mobike_destination_predict.dataprocess.getloc"
+int __pyx_module_is_main_mobike_destination_predict__dataprocess__getloc = 0;
 
-/* Implementation of 'dataprocess.getloc' */
+/* Implementation of 'mobike_destination_predict.dataprocess.getloc' */
 static const char __pyx_k_i[] = "i";
 static const char __pyx_k_x[] = "x";
 static const char __pyx_k_la[] = "la";
@@ -853,31 +853,31 @@ static const char __pyx_k_lo[] = "lo";
 static const char __pyx_k_main[] = "__main__";
 static const char __pyx_k_test[] = "__test__";
 static const char __pyx_k_append[] = "append";
-static const char __pyx_k_decode[] = "decode";
 static const char __pyx_k_getloc[] = "getloc";
 static const char __pyx_k_import[] = "__import__";
 static const char __pyx_k_pygeohash[] = "pygeohash";
-static const char __pyx_k_dataprocess_getloc[] = "dataprocess.getloc";
+static const char __pyx_k_decode_exactly[] = "decode_exactly";
 static const char __pyx_k_C_Users_Zhixuan_PycharmProjects[] = "C:\\Users\\Zhixuan\\PycharmProjects\\mobike_destination_predict\\dataprocess\\getloc.pyx";
+static const char __pyx_k_mobike_destination_predict_datap[] = "mobike_destination_predict.dataprocess.getloc";
 static PyObject *__pyx_kp_s_C_Users_Zhixuan_PycharmProjects;
 static PyObject *__pyx_n_s_append;
-static PyObject *__pyx_n_s_dataprocess_getloc;
-static PyObject *__pyx_n_s_decode;
+static PyObject *__pyx_n_s_decode_exactly;
 static PyObject *__pyx_n_s_getloc;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_la;
 static PyObject *__pyx_n_s_lo;
 static PyObject *__pyx_n_s_main;
+static PyObject *__pyx_n_s_mobike_destination_predict_datap;
 static PyObject *__pyx_n_s_pygeohash;
 static PyObject *__pyx_n_s_test;
 static PyObject *__pyx_n_s_x;
-static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* proto */
+static PyObject *__pyx_pf_26mobike_destination_predict_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x); /* proto */
 static PyObject *__pyx_tuple_;
 static PyObject *__pyx_codeobj__2;
 
-/* "dataprocess/getloc.pyx":3
- * from pygeohash import decode
+/* "mobike_destination_predict/dataprocess/getloc.pyx":3
+ * from pygeohash import decode_exactly
  * 
  * def getloc(x):             # <<<<<<<<<<<<<<
  *     cdef la = []
@@ -885,20 +885,20 @@ static PyObject *__pyx_codeobj__2;
  */
 
 /* Python wrapper */
-static PyObject *__pyx_pw_11dataprocess_6getloc_1getloc(PyObject *__pyx_self, PyObject *__pyx_v_x); /*proto*/
-static PyMethodDef __pyx_mdef_11dataprocess_6getloc_1getloc = {"getloc", (PyCFunction)__pyx_pw_11dataprocess_6getloc_1getloc, METH_O, 0};
-static PyObject *__pyx_pw_11dataprocess_6getloc_1getloc(PyObject *__pyx_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pw_26mobike_destination_predict_11dataprocess_6getloc_1getloc(PyObject *__pyx_self, PyObject *__pyx_v_x); /*proto*/
+static PyMethodDef __pyx_mdef_26mobike_destination_predict_11dataprocess_6getloc_1getloc = {"getloc", (PyCFunction)__pyx_pw_26mobike_destination_predict_11dataprocess_6getloc_1getloc, METH_O, 0};
+static PyObject *__pyx_pw_26mobike_destination_predict_11dataprocess_6getloc_1getloc(PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_r = 0;
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("getloc (wrapper)", 0);
-  __pyx_r = __pyx_pf_11dataprocess_6getloc_getloc(__pyx_self, ((PyObject *)__pyx_v_x));
+  __pyx_r = __pyx_pf_26mobike_destination_predict_11dataprocess_6getloc_getloc(__pyx_self, ((PyObject *)__pyx_v_x));
 
   /* function exit code */
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
 }
 
-static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x) {
+static PyObject *__pyx_pf_26mobike_destination_predict_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *__pyx_self, PyObject *__pyx_v_x) {
   PyObject *__pyx_v_la = 0;
   PyObject *__pyx_v_lo = 0;
   PyObject *__pyx_v_i = 0;
@@ -914,7 +914,7 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
   int __pyx_t_8;
   __Pyx_RefNannySetupContext("getloc", 0);
 
-  /* "dataprocess/getloc.pyx":4
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":4
  * 
  * def getloc(x):
  *     cdef la = []             # <<<<<<<<<<<<<<
@@ -926,7 +926,7 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
   __pyx_v_la = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dataprocess/getloc.pyx":5
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":5
  * def getloc(x):
  *     cdef la = []
  *     cdef lo = []             # <<<<<<<<<<<<<<
@@ -938,12 +938,12 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
   __pyx_v_lo = __pyx_t_1;
   __pyx_t_1 = 0;
 
-  /* "dataprocess/getloc.pyx":7
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":7
  *     cdef lo = []
  *     cdef str i
  *     for i in x:             # <<<<<<<<<<<<<<
- *         la.append(decode(i)[0])
- *         lo.append(decode(i)[1])
+ *         la.append(decode_exactly(i)[0])
+ *         lo.append(decode_exactly(i)[1])
  */
   if (likely(PyList_CheckExact(__pyx_v_x)) || PyTuple_CheckExact(__pyx_v_x)) {
     __pyx_t_1 = __pyx_v_x; __Pyx_INCREF(__pyx_t_1); __pyx_t_2 = 0;
@@ -988,14 +988,14 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
     __Pyx_XDECREF_SET(__pyx_v_i, ((PyObject*)__pyx_t_4));
     __pyx_t_4 = 0;
 
-    /* "dataprocess/getloc.pyx":8
+    /* "mobike_destination_predict/dataprocess/getloc.pyx":8
  *     cdef str i
  *     for i in x:
- *         la.append(decode(i)[0])             # <<<<<<<<<<<<<<
- *         lo.append(decode(i)[1])
+ *         la.append(decode_exactly(i)[0])             # <<<<<<<<<<<<<<
+ *         lo.append(decode_exactly(i)[1])
  * 
  */
-    __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_decode); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 8, __pyx_L1_error)
+    __pyx_t_5 = __Pyx_GetModuleGlobalName(__pyx_n_s_decode_exactly); if (unlikely(!__pyx_t_5)) __PYX_ERR(0, 8, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_5);
     __pyx_t_6 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_5))) {
@@ -1046,14 +1046,14 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
     __pyx_t_8 = __Pyx_PyObject_Append(__pyx_v_la, __pyx_t_5); if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 8, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_5); __pyx_t_5 = 0;
 
-    /* "dataprocess/getloc.pyx":9
+    /* "mobike_destination_predict/dataprocess/getloc.pyx":9
  *     for i in x:
- *         la.append(decode(i)[0])
- *         lo.append(decode(i)[1])             # <<<<<<<<<<<<<<
+ *         la.append(decode_exactly(i)[0])
+ *         lo.append(decode_exactly(i)[1])             # <<<<<<<<<<<<<<
  * 
  *     return la, lo
  */
-    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_decode); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 9, __pyx_L1_error)
+    __pyx_t_4 = __Pyx_GetModuleGlobalName(__pyx_n_s_decode_exactly); if (unlikely(!__pyx_t_4)) __PYX_ERR(0, 9, __pyx_L1_error)
     __Pyx_GOTREF(__pyx_t_4);
     __pyx_t_7 = NULL;
     if (CYTHON_UNPACK_METHODS && unlikely(PyMethod_Check(__pyx_t_4))) {
@@ -1104,18 +1104,18 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
     __pyx_t_8 = __Pyx_PyObject_Append(__pyx_v_lo, __pyx_t_4); if (unlikely(__pyx_t_8 == -1)) __PYX_ERR(0, 9, __pyx_L1_error)
     __Pyx_DECREF(__pyx_t_4); __pyx_t_4 = 0;
 
-    /* "dataprocess/getloc.pyx":7
+    /* "mobike_destination_predict/dataprocess/getloc.pyx":7
  *     cdef lo = []
  *     cdef str i
  *     for i in x:             # <<<<<<<<<<<<<<
- *         la.append(decode(i)[0])
- *         lo.append(decode(i)[1])
+ *         la.append(decode_exactly(i)[0])
+ *         lo.append(decode_exactly(i)[1])
  */
   }
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
 
-  /* "dataprocess/getloc.pyx":11
- *         lo.append(decode(i)[1])
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":11
+ *         lo.append(decode_exactly(i)[1])
  * 
  *     return la, lo             # <<<<<<<<<<<<<<
  */
@@ -1132,8 +1132,8 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
   __pyx_t_1 = 0;
   goto __pyx_L0;
 
-  /* "dataprocess/getloc.pyx":3
- * from pygeohash import decode
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":3
+ * from pygeohash import decode_exactly
  * 
  * def getloc(x):             # <<<<<<<<<<<<<<
  *     cdef la = []
@@ -1147,7 +1147,7 @@ static PyObject *__pyx_pf_11dataprocess_6getloc_getloc(CYTHON_UNUSED PyObject *_
   __Pyx_XDECREF(__pyx_t_5);
   __Pyx_XDECREF(__pyx_t_6);
   __Pyx_XDECREF(__pyx_t_7);
-  __Pyx_AddTraceback("dataprocess.getloc.getloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+  __Pyx_AddTraceback("mobike_destination_predict.dataprocess.getloc.getloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
   __Pyx_XDECREF(__pyx_v_la);
@@ -1183,14 +1183,14 @@ static struct PyModuleDef __pyx_moduledef = {
 static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_kp_s_C_Users_Zhixuan_PycharmProjects, __pyx_k_C_Users_Zhixuan_PycharmProjects, sizeof(__pyx_k_C_Users_Zhixuan_PycharmProjects), 0, 0, 1, 0},
   {&__pyx_n_s_append, __pyx_k_append, sizeof(__pyx_k_append), 0, 0, 1, 1},
-  {&__pyx_n_s_dataprocess_getloc, __pyx_k_dataprocess_getloc, sizeof(__pyx_k_dataprocess_getloc), 0, 0, 1, 1},
-  {&__pyx_n_s_decode, __pyx_k_decode, sizeof(__pyx_k_decode), 0, 0, 1, 1},
+  {&__pyx_n_s_decode_exactly, __pyx_k_decode_exactly, sizeof(__pyx_k_decode_exactly), 0, 0, 1, 1},
   {&__pyx_n_s_getloc, __pyx_k_getloc, sizeof(__pyx_k_getloc), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_la, __pyx_k_la, sizeof(__pyx_k_la), 0, 0, 1, 1},
   {&__pyx_n_s_lo, __pyx_k_lo, sizeof(__pyx_k_lo), 0, 0, 1, 1},
   {&__pyx_n_s_main, __pyx_k_main, sizeof(__pyx_k_main), 0, 0, 1, 1},
+  {&__pyx_n_s_mobike_destination_predict_datap, __pyx_k_mobike_destination_predict_datap, sizeof(__pyx_k_mobike_destination_predict_datap), 0, 0, 1, 1},
   {&__pyx_n_s_pygeohash, __pyx_k_pygeohash, sizeof(__pyx_k_pygeohash), 0, 0, 1, 1},
   {&__pyx_n_s_test, __pyx_k_test, sizeof(__pyx_k_test), 0, 0, 1, 1},
   {&__pyx_n_s_x, __pyx_k_x, sizeof(__pyx_k_x), 0, 0, 1, 1},
@@ -1204,8 +1204,8 @@ static int __Pyx_InitCachedConstants(void) {
   __Pyx_RefNannyDeclarations
   __Pyx_RefNannySetupContext("__Pyx_InitCachedConstants", 0);
 
-  /* "dataprocess/getloc.pyx":3
- * from pygeohash import decode
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":3
+ * from pygeohash import decode_exactly
  * 
  * def getloc(x):             # <<<<<<<<<<<<<<
  *     cdef la = []
@@ -1295,14 +1295,14 @@ PyMODINIT_FUNC PyInit_getloc(void)
   #if PY_MAJOR_VERSION < 3 && (__PYX_DEFAULT_STRING_ENCODING_IS_ASCII || __PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT)
   if (__Pyx_init_sys_getdefaultencoding_params() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
-  if (__pyx_module_is_main_dataprocess__getloc) {
+  if (__pyx_module_is_main_mobike_destination_predict__dataprocess__getloc) {
     if (PyObject_SetAttrString(__pyx_m, "__name__", __pyx_n_s_main) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   }
   #if PY_MAJOR_VERSION >= 3
   {
     PyObject *modules = PyImport_GetModuleDict(); if (unlikely(!modules)) __PYX_ERR(0, 1, __pyx_L1_error)
-    if (!PyDict_GetItemString(modules, "dataprocess.getloc")) {
-      if (unlikely(PyDict_SetItemString(modules, "dataprocess.getloc", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
+    if (!PyDict_GetItemString(modules, "mobike_destination_predict.dataprocess.getloc")) {
+      if (unlikely(PyDict_SetItemString(modules, "mobike_destination_predict.dataprocess.getloc", __pyx_m) < 0)) __PYX_ERR(0, 1, __pyx_L1_error)
     }
   }
   #endif
@@ -1322,39 +1322,39 @@ PyMODINIT_FUNC PyInit_getloc(void)
   if (__Pyx_patch_abc() < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   #endif
 
-  /* "dataprocess/getloc.pyx":1
- * from pygeohash import decode             # <<<<<<<<<<<<<<
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":1
+ * from pygeohash import decode_exactly             # <<<<<<<<<<<<<<
  * 
  * def getloc(x):
  */
   __pyx_t_1 = PyList_New(1); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  __Pyx_INCREF(__pyx_n_s_decode);
-  __Pyx_GIVEREF(__pyx_n_s_decode);
-  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_decode);
+  __Pyx_INCREF(__pyx_n_s_decode_exactly);
+  __Pyx_GIVEREF(__pyx_n_s_decode_exactly);
+  PyList_SET_ITEM(__pyx_t_1, 0, __pyx_n_s_decode_exactly);
   __pyx_t_2 = __Pyx_Import(__pyx_n_s_pygeohash, __pyx_t_1, -1); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
-  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_decode); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
+  __pyx_t_1 = __Pyx_ImportFrom(__pyx_t_2, __pyx_n_s_decode_exactly); if (unlikely(!__pyx_t_1)) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_1);
-  if (PyDict_SetItem(__pyx_d, __pyx_n_s_decode, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
+  if (PyDict_SetItem(__pyx_d, __pyx_n_s_decode_exactly, __pyx_t_1) < 0) __PYX_ERR(0, 1, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "dataprocess/getloc.pyx":3
- * from pygeohash import decode
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":3
+ * from pygeohash import decode_exactly
  * 
  * def getloc(x):             # <<<<<<<<<<<<<<
  *     cdef la = []
  *     cdef lo = []
  */
-  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_11dataprocess_6getloc_1getloc, NULL, __pyx_n_s_dataprocess_getloc); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
+  __pyx_t_2 = PyCFunction_NewEx(&__pyx_mdef_26mobike_destination_predict_11dataprocess_6getloc_1getloc, NULL, __pyx_n_s_mobike_destination_predict_datap); if (unlikely(!__pyx_t_2)) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_GOTREF(__pyx_t_2);
   if (PyDict_SetItem(__pyx_d, __pyx_n_s_getloc, __pyx_t_2) < 0) __PYX_ERR(0, 3, __pyx_L1_error)
   __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
 
-  /* "dataprocess/getloc.pyx":1
- * from pygeohash import decode             # <<<<<<<<<<<<<<
+  /* "mobike_destination_predict/dataprocess/getloc.pyx":1
+ * from pygeohash import decode_exactly             # <<<<<<<<<<<<<<
  * 
  * def getloc(x):
  */
@@ -1371,11 +1371,11 @@ PyMODINIT_FUNC PyInit_getloc(void)
   __Pyx_XDECREF(__pyx_t_2);
   if (__pyx_m) {
     if (__pyx_d) {
-      __Pyx_AddTraceback("init dataprocess.getloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
+      __Pyx_AddTraceback("init mobike_destination_predict.dataprocess.getloc", __pyx_clineno, __pyx_lineno, __pyx_filename);
     }
     Py_DECREF(__pyx_m); __pyx_m = 0;
   } else if (!PyErr_Occurred()) {
-    PyErr_SetString(PyExc_ImportError, "init dataprocess.getloc");
+    PyErr_SetString(PyExc_ImportError, "init mobike_destination_predict.dataprocess.getloc");
   }
   __pyx_L0:;
   __Pyx_RefNannyFinishContext();
